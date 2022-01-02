@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv-contaienr{
+    width: 1152px;
+    margin: auto;
+}
+.top-section{
+    display: flex;
+  align-items: center;
+}
+.top-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.btn1{
+    padding: 8px 20px;
+    border: 3px solid transparent;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+.btn2{
+    padding: 8px 20px;
+    background-color: white;
+    border: 3px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn2:hover{
+    background-color: black;
+    border: 3px solid transparent;
+    color: white;
+}
+.container{
+    text-align: center;
+    width: 40%;
+}
+.mid-div{
+    background-color: thistle;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.emailbox{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part2{
+    text-align: center;
+}
+.footer{
+    background-color: thistle;
+    padding: 50px 0 20px 0 ;
+}
+p{
+    margin: 15px 0;
+    color: rgb(98, 98, 99);
+}
+.divider{
+    margin: 15px 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins&display=swap');
+body{
+    font-family: 'Licorice', cursive;
+
+}
